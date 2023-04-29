@@ -72,7 +72,7 @@ OrderRouter.patch("/api/orders/:id", async (req, res) => {
 
 // Delete menu from order
 
-OrderRouter.delete("/api/orders/:id/menu/:id", async (req, res) => {
+OrderRouter.delete("/api/orders/:id", async (req, res) => {
   try {
     let id = req.params.id;
 

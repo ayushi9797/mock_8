@@ -7,8 +7,8 @@ const OrderSchema = new mongoose.Schema({
     {
       name: String,
       price: Number,
-      quantity: Number,
-    },
+      quantity: Number
+    }
   ],
   totalPrice: Number,
   deliveryAddress: {
@@ -46,3 +46,24 @@ module.exports = {
 //       "zip":" String",
 //     },
 //   }
+
+
+// {
+//   "user": "644cd2f8ad0195c03dd06a19",
+//   "restaurant": "644cd2f8ad0195c03dd06a19",
+//   "items": [
+//     {
+//       "name": "Strsdfaasdfasdfsdfing",
+//       "price": 1231,
+//       "quantity": 2
+//     }
+//   ],
+//   "totalPrice": 12323,
+//   "deliveryAddress": {
+//     "street": "Stradfasdfing",
+//     "city": "String",
+//     "state": "String",
+//     "country": "String",
+//     "zip": "String"
+//   }
+// }

@@ -51,3 +51,39 @@ This endpoint should return the menu of a specific restaurant identified by its 
   `http://localhost:8080/api/orders/:id`
 
   
+@ 
+``http://localhost:6500/api/restaurants``
+
+
+http://localhost:6500/644cd0bec8b73e1ad89a58c0/menu
+{
+  "name": "dsfsdf",
+  "description": " String",
+  "price": 123,
+  "image": "String",
+  "_id": "644cd0bec8b73e1ad89a58c1"
+}
+
+
+
+
+```http://localhost:6500/api/orders/644cecc7a2e8ea52e1786ecd```
+{
+  "user": "644cd2f8ad0195c03dd06a19",
+  "restaurant": "644cd2f8ad0195c03dd06a19",
+  "items": [
+    {
+      "name": "abc",
+      "price": 1231,
+      "quantity": 2
+    }
+  ],
+  "totalPrice": 12323,
+  "deliveryAddress": {
+    "street": "Stradfasdfing",
+    "city": "String",
+    "state": "String",
+    "country": "String",
+    "zip": "String"
+  }
+}

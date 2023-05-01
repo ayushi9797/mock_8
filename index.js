@@ -1,7 +1,7 @@
 const express = require("express");
 const { connection } = require("./config/db");
 const { UserRouter } = require("./router/User.Router");
-const { ResturantRouter } = require("./router/Resturant.router");
+const { ResturantRouter } = require("./router/Resturant.Router");
 const { OrderRouter } = require("./router/Order.Router");
 const { authentication } = require("./middleware/auth");
 
